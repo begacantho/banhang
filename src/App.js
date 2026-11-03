@@ -6,13 +6,13 @@ import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendP
 import { getFirestore, doc, setDoc, getDoc, getDocs, addDoc, updateDoc, deleteDoc, onSnapshot, collection, writeBatch, query, orderBy, where, limit } from 'firebase/firestore';
 
 const firebaseConfig = {
- apiKey: "AIzaSyC9nnxzOOWIDTym9Lzo2Kn2J1gS0ro-QQs",
-    authDomain: "autrung-7d8be.firebaseapp.com",
-    projectId: "autrung-7d8be",
-    storageBucket: "autrung-7d8be.firebasestorage.app",
-    messagingSenderId: "682074587160",
-    appId: "1:682074587160:web:24da7989f82d94d589c36d",
-  measurementId: "G-0YW45XF8QL"
+ apiKey: "AIzaSyCqlx9ZnrGKTIBW0kzMMfmL41f986_pLcQ",
+  authDomain: "quanlybanhang-be761.firebaseapp.com",
+  projectId: "quanlybanhang-be761",
+  storageBucket: "quanlybanhang-be761.firebasestorage.app",
+  messagingSenderId: "958128261246",
+  appId: "1:958128261246:web:1075814b8868cc1f1d702f"
+};
 };
 
 const app = initializeApp(firebaseConfig);
