@@ -13,7 +13,6 @@ const firebaseConfig = {
   messagingSenderId: "958128261246",
   appId: "1:958128261246:web:1075814b8868cc1f1d702f"
 };
-};
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
